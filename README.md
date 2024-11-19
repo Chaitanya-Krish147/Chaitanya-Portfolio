@@ -30,8 +30,8 @@ git clone https://github.com/Chaitanya-Krish147/Chaitanya-Portfolio.git
 
 ## Contact
 If you'd like to connect, feel free to reach out via:
-Twitter: (https://www.twitter.com/Chaitanyakc147)
-Linkedin: (https://www.linkedin.com/in/krishna-chaitanya-/)
+Twitter: (Chaitanyakc147)
+Linkedin: (krishna-chaitanya-/)
 
 ## License
 This project is licensed under the MIT License. See the LICENSE file for details.
