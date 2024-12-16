@@ -1,7 +1,11 @@
 'use strict';
 
+
+
 // element toggle function
 const elementToggleFunc = function (elem) { elem.classList.toggle("active"); }
+
+
 
 // sidebar variables
 const sidebar = document.querySelector("[data-sidebar]");
@@ -9,6 +13,8 @@ const sidebarBtn = document.querySelector("[data-sidebar-btn]");
 
 // sidebar toggle functionality for mobile
 sidebarBtn.addEventListener("click", function () { elementToggleFunc(sidebar); });
+
+
 
 // testimonials variables
 const testimonialsItem = document.querySelectorAll("[data-testimonials-item]");
@@ -154,7 +160,8 @@ for (let i = 0; i < navigationLinks.length; i++) {
   });
 }
 
-//Resume Upload Button
+
+//resume upload button
 document.getElementById('downloadBtn').addEventListener('click', () => {
   const fileUrl = 'assets/Chaitanya_Resume.pdf'; // Adjust path if necessary
   const a = document.createElement('a');
