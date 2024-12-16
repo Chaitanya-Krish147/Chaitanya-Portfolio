@@ -160,13 +160,12 @@ for (let i = 0; i < navigationLinks.length; i++) {
   });
 }
 
-
-//resume upload button
+//Resume Upload Button
 document.getElementById('downloadBtn').addEventListener('click', () => {
-  const fileUrl = 'assets/Chaitanya_Cv.pdf'; // Adjust path if necessary
+  const fileUrl = 'assets/Chaitanya_Resume.pdf'; // Adjust path if necessary
   const a = document.createElement('a');
   a.href = fileUrl;
-  a.download = 'Chaitanya_Cv.pdf'; // This is the filename that will be used on download
+  a.download = 'Chaitanya_Resume.pdf'; // This is the filename that will be used on download
   document.body.appendChild(a);
   a.click();
   document.body.removeChild(a);
