@@ -156,13 +156,9 @@ for (let i = 0; i < navigationLinks.length; i++) {
 
 
 //resume upload button
-document.getElementById('downloadBtn').addEventListener('click', () => {
-  const fileUrl = 'assets/Chaitanya_Resume.pdf'; // Adjust path if necessary
-  const a = document.createElement('a');
-  a.href = fileUrl;
-  a.download = 'Chaitanya_Resume.pdf'; // This is the filename that will be used on download
-  document.body.appendChild(a);
-  a.click();
-  document.body.removeChild(a);
+//Resume View Button
+document.getElementById('viewBtn').addEventListener('click', () => {
+  const fileUrl = 'assets/Chaitanya_Resume.pdf';
+  window.open(fileUrl, '_blank');
 });
 
