@@ -155,7 +155,6 @@ for (let i = 0; i < navigationLinks.length; i++) {
 }
 
 
-//resume upload button
 //Resume View Button
 document.getElementById('viewBtn').addEventListener('click', () => {
   const fileUrl = 'assets/Chaitanya_Resume.pdf';
